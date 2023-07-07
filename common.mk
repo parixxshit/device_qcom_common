@@ -176,7 +176,7 @@ else ifeq ($(TARGET_USE_BENGAL-515_HALS),true) # bengal-515: SM6225-AD - khaje d
 TARGET_KERNEL_VERSION ?= 5.15
 TARGET_HALS_VARIANT ?= bengal-5.15
 OVERRIDE_QCOM_HARDWARE_VARIANT := bengal-5.15
-else ifeq ($(TARGET_USE_KONA-515_HALS),true) # kona-5.15: QCS8250 QRB5165 QCS7230 QRB3165 
+else ifeq ($(TARGET_USE_KONA-515_HALS),true) # kona-5.15: QCS8250 QRB5165 QCS7230 QRB3165
 TARGET_KERNEL_VERSION ?= 5.15
 TARGET_HALS_VARIANT ?= kona-5.15
 OVERRIDE_QCOM_HARDWARE_VARIANT := kona-5.15
@@ -191,7 +191,7 @@ DEVICE_MATRIX_FILE += \
 
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     vendor/qcom/opensource/core-utils/vendor_framework_compatibility_matrix.xml \
-    vendor/aosp/config/device_framework_matrix.xml
+    vendor/derp/config/device_framework_matrix.xml
 
 PRODUCT_VENDOR_PROPERTIES += ro.vendor.qti.va_aosp.support=1
 PRODUCT_ODM_PROPERTIES += ro.vendor.qti.va_odm.support=1
